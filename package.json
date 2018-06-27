@@ -1,0 +1,28 @@
+{
+	"name": "Parcel-orbitdb",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "parcel serve src/index.html -d dist --public-url /dist/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Nipol/Parcel-orbitdb.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Nipol/Parcel-orbitdb/issues"
+	},
+	"homepage": "https://github.com/Nipol/Parcel-orbitdb#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.9.3"
+	},
+	"dependencies": {
+		"ipfs": "^0.29.3",
+		"orbit-db": "^0.19.8"
+	}
+}
